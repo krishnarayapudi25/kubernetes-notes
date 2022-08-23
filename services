@@ -1,0 +1,1 @@
+each pod has its own ip address when it is destroyed and new one is recreated ip address will change so counter this problem we use sevice which gives a stable ip address
