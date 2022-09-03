@@ -1,6 +1,15 @@
 ###service
 each pod has its own ip address when it is destroyed and new one is recreated ip address will change so counter this problem we use sevice which gives a stable ip address
+CluserIp:used to communicate within the cluster not outside of cluster...
+NodePort:Exposes the Service on each Node's IP at a static port....NodePorts are in the 30000-32767 range by default
+LoadBalancer:
+Ingress controller:In order for the Ingress resource to work, the cluster must have an ingress controller running.
+                   Kubernetes as a project supports and maintains AWS, GCE, and nginx ingress controllers
 
+Ingress:Ingress makes it easier to use a DNS entry.
+        Ingress exposes HTTP and HTTPS routes from outside the cluster to services within the cluster.
+        Traffic routing is controlled by rules defined on the Ingress resource.
+       ### https://platform9.com/blog/ultimate-guide-to-kubernetes-ingress-controllers/
 
 #### Statefulsets
 Stateful applications are deployed using statefulsets.
