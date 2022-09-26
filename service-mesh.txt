@@ -1,0 +1,5 @@
+Microservices architectures are heavily network reliant. Service mesh manages network traffic between services.
+A service mesh is a mesh of Layer 7 proxies, not a mesh of services. Microservices can use a service mesh to abstract the network away, 
+resolving many of the challenges arising from talking to remote endpoints within a Kubernetes cluster. 
+Building on Kubernetes allows the service mesh to abstract away how inter-process and service to service communications are handled, 
+as containers abstract away the operating system from the application.
