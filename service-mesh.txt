@@ -7,3 +7,9 @@ as containers abstract away the operating system from the application.
 
 ### 
 In kubernetes during like canary deployment we cant assign how much traffic can go to new update but using istio we can specify how much traffic can go to new update.
+
+
+
+####
+Virtual services
+https://istio.io/latest/docs/concepts/traffic-management/
